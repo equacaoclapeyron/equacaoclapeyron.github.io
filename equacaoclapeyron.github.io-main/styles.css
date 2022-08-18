@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#headera{
+    color: white;
+    background-color: #09598bc8;
+    padding: 27px;
+    text-align: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: white solid 2px;
+}
+td, th {
+    border: 0px solid black;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #2a3362;
+    color: white;
+}
+tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+h1 {
+    font: normal 40pt verdana;
+}
+h2{
+    text-align: center;
+    font: normal 20pt verdana;
+    cursor: pointer;
+}
+h3 {
+    text-align:center;
+}
+h5 {
+    text-align:center;
+}
+p {
+    text-align:center;
+    font-family:verdana;
+}
+button {
+    padding: 15px 20px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #047eaa;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(239, 250, 253);
+}
+
+button:hover {
+    background-color: hsl(230, 39%, 40%);
+}
+
+button:active {
+    background-color: #3e638e;
+    box-shadow: 0 5px rgb(10, 10, 28);
+    transform: translateY(4px);
+}
+input{
+    width: 30%;
+    background-color: white;
+    border-radius: -10px;
+    text-align: center;
+}
+input:hover{
+    background-color: lightblue;
+    transition: all 0.3s ease 0s;
+}
+input:active{
+    background-color: rgb(94, 94, 228);   
+}
+
+.aligncenter{
+    width: 100%;
+    text-align: center;
+}
+#textoenorme{
+    text-align: justify;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+#formula{
+    background-image: url("https://thumbs.gfycat.com/DeliciousMadeupFulmar-max-1mb.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: 100%;
+    border: white solid 2px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.column {
+    color: white;
+    background-image: linear-gradient(to right, #08456b, rgba(13, 17, 101, 0));
+    float: left;
+    width: 66.66%;
+    padding: 15px;
+}
+.column2 {
+    background-image: linear-gradient(to left, #08456b, rgba(13, 17, 101, 0));
+    float: right;
+    width: 25.33%;
+    padding: 80px;
+    color: white;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+.nav_links li a:hover{
+    color: #047eaa;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+li, a, button{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    max-width: 50px;
+    cursor: pointer;
+}
+.resultado_feito{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+.imagem{
+    max-width: 200px;
+    border-radius: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.coluna1{
+    color: white;
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.coluna2{
+    color: white;
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.coluna3{
+    color: white;
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.nomes{
+    text-align: center;
+    font-size: 35px;
+}
+.textoenorme2{
+    text-align: center;
+    font-size: 15px;
+}
